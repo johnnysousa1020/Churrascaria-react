@@ -1,0 +1,37 @@
+.depoimentos{
+    padding: 100px 5%;
+    background: #111;
+    color: #fff;
+}
+
+.depoimentos h2{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 60px;
+    color: #f5c16c;
+}
+
+.depoimentos-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+}
+
+.depoimentos-card{
+    background: #1a1a1a;
+    padding: 35px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+.depoimentos-card p{
+    line-height: 1.7;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.depoimentos-card span{
+    font-weight: bold;
+    color: #f5c16c;
+}

@@ -1,0 +1,48 @@
+.sobre{
+    padding: 100px 20px;
+    background-color: #111;
+    color: #fff;
+}
+
+.sobre-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.sobre-texto h2{
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+    color: #c0392b;
+}
+
+.sobre-texto p{
+    font-size: 1.2rem;
+    line-height: 1.9;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.sobre-imagem img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+}
+
+@media (max-width: 900px){
+    .sobre-container{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .sobre-texto h2{
+        font-size: 2rem;
+    }
+
+    .sobre-texto p{
+        font-size: 1.1rem;
+    }
+}

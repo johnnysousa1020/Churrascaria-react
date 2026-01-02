@@ -1,0 +1,89 @@
+.cardapio{
+    padding: 80px 5%;
+    background-color: #111;
+    color: #fff;
+}
+
+.cardapio h2{
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 60px;
+    color: #f5c16c;
+    letter-spacing: 2px;
+}
+
+.cardapio-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.card{
+    background: linear-gradient(180deg, #1a1a1a, #0d0d0d);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 25px 40px rgba(0,0,0,0.9);
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content{
+    padding: 20px;
+}
+
+.card-content h3{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #f5c16c;
+}
+
+.card-content p{
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.card-content span{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background: #f5c16c;
+    padding: 6px 14px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.filtros{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.filtros button{
+    background: transparent;
+    border: 2px solid #f5c16c;
+    color: #f5c16c;
+    padding: 10px 22px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.filtros button:hover{
+    background: #f5c16c;
+    color: #111;
+}

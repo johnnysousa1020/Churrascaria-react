@@ -1,0 +1,93 @@
+.destaques{
+    padding: 100px 5%;
+    background: linear-gradient(180deg, #0d0d0d, #111);
+    color: #fff;
+}
+
+.destaques h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 60px;
+    color: #f5c16c;
+    letter-spacing: 2px;
+}
+
+.destaques-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.destaque-card{
+    background: #1a1a1a;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.destaque-card:hover{
+    transform: scale(1.03);
+}
+
+.destaque-card img{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.destaque-content{
+    padding: 25px;
+    text-align: center;
+}
+
+.destaque-content h3{
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+    color: #f5c16c;
+}
+
+.destaque-content p{
+    color: #ccc;
+    margin-bottom: 18px;
+    line-height: 1.6;
+}
+
+.destaque-content span{
+    font-size: 1.3rem;
+    font-weight: bold;
+    background: #f5c16c;
+    color: #111;
+    padding: 8px 20px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.badge{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: linear-gradient(45deg, #ff9800, #ff5722);
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    animation: pulse 1.5s infinite;
+}
+
+
+@keyframes pulse {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.08);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,46 @@
+.beneficios{
+    padding: 100px 5%;
+    background: linear-gradient(180deg, #0d0d0d, #111);
+    color: #fff;
+}
+
+.beneficios h2{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 60px;
+    color: #f5c16c;
+}
+
+.beneficios-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+}
+
+.beneficio-card{
+    background: #1a1a1a;
+    padding: 40px 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.beneficio-card:hover{
+    transform: translateY(-8px);
+}
+
+.beneficio-card span{
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.beneficio-card h3{
+    color: #f5c16c;
+    margin-bottom: 12px;
+}
+
+.beneficio-card p{
+    color: #ccc;
+    line-height: 1.6;
+}
