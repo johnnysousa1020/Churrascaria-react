@@ -1,16 +1,77 @@
-# React + Vite
+# Churrascaria Brasa Nobre
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de site institucional para uma churrascaria fictícia,
+desenvolvido com **React + Vite**, com foco em **layout moderno,
+componentização do usuário**.
 
-Currently, two official plugins are available:
+O objetivo do projeto é demonstrar habilidades em **Front-End**,
+organização de código e criação de interfaces realistas para
+portfólio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Navegação por âncoraas (Header -> Seções)
+- Scroll suave entre as seções
+- Seção Hero com botão de ação
+- Seção Sobre a churrascaria
+- Destaques da casa com selo "Mais pedido"
+- Caardápio com filtro por categorias
+- Seção "Por que escolher a gente"
+- Depoimentos de clientes
+- Footer completo com contato e redes sociais
+- Layout totalmente responsivo
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+
+- **React**
+- **Vite**
+- **JavaScript (ES6+)**
+- **CSS3**
+- **React Icons**
+- **Git & GitHub**
+
+---
+
+## 📱 Responsividade
+
+O projeto foi desenvolvido pensando em diferentes tamanhos de tela,
+garantindo uma boa experiência tanto em computadores quanto em
+dispositivos móveis.
+
+---
+
+## 🎯 Objetivo do Projeto
+
+Este projeto foi criado com o objetivo de praticar e evoluir
+habilidades em **Front-End**, incluindo:
+
+- Criação de componentes com React
+- Organização de pastas e componentes
+- Estilização com CSS
+- Responsividade
+- Boas práticas em aplicações React
+
+---
+
+## 🤖 Observação
+
+As imagens utilizadas neste projeto foram geradas com o
+auxílio de inteligência artificial e são utilizadas apenas para
+fins educacionais e de estudo
+
+---
+
+## 🌐 Projeto online:
+
+https://onlinemall.online/
+
+---
+
+## Autor
+
+Projeto desenvolvido por **Johnny Sousa**
+Front-End Developer em evolução
